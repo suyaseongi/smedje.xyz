@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'smedje.xyz'
 languageCode = 'en-us'
 title = 'smedje'
 theme = 'risotto'
