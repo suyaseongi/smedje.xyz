@@ -4,7 +4,11 @@ title = 'smedje.xyz'
 theme = 'risotto'
 
 # Automatically add content sections to main menu
-sectionPagesMenu = "main"
+#sectionPagesMenu = "main"
+
+[[menu.main]]
+name = "home"
+url = "/posts"
 
 [params]
 noindex = false
