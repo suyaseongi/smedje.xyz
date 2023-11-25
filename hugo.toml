@@ -1,0 +1,20 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'smedje.xyz'
+theme = 'risotto'
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+#palette = "base16-dark"
+palette = "dracula"
+
+[params.about]
+title = "smedje"
+description = "IT enthusiast, loves to study subjects that don't have much to do with each other"
+logo = "images/profile.png"
+
