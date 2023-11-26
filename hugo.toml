@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'smedje'
 theme = 'risotto'
 
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
 

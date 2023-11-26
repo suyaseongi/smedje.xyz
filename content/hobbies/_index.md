@@ -2,7 +2,6 @@
 title = 'Hobbies'
 date = 2023-11-26T10:23:26+01:00
 draft = false
-toc = true
 description = "Home page for hobbies"
 +++
 

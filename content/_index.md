@@ -5,7 +5,7 @@ draft = false
 +++
 # Hi
 Welcome to my first website project !\
-I'll be posting various info about my [hobbies](/hobbies), my daily driving system and this website.\
+I'll be posting various info about my [hobbies](/hobbies), my [daily driving system](/forge) and this website.\
 See you soon !
 
 ## Other
