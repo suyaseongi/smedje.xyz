@@ -4,16 +4,22 @@ title = 'smedje'
 theme = 'risotto'
 
 # For hugo >= 0.60.0, enable inline HTML
-[markup.goldmark.renderer]
-unsafe = true
+#[markup.goldmark.renderer]
+#unsafe = true
 
 # Automatically add content sections to main menu
-sectionPagesMenu = "main"
+#sectionPagesMenu = "main"
 
+[[menu.main]]
+name = "Hobbies"
+url = "/hobbies"
+weight = 20
 
-#[[menu.main]]
-#name = "Posts"
-#url = "/posts"
+[[menu.main]]
+name = "Forge"
+url = "/forge"
+weight = 30
+
 
 [params]
 noindex = false
