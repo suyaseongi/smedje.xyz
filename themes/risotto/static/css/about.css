@@ -1,6 +1,7 @@
 /* About/bio section */
 .about__logo {
-    height: 1.5rem;
+    /*height: 1.5rem;*/
+    height: 4rem;
 }
 
 .about__title {
