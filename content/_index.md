@@ -6,11 +6,11 @@ draft = false
 # Hi
 Welcome to my first website project !
 
-I'll be posting various info about my [hobbies](/hobbies), my ["daily driving" system](/forge) and this website.
+I'll be posting various info about my [hobbies](/hobbies), my ["daily driving" system](/forge) and details about this website.
 
-By the way, if you're wondering about the style of the website : Yes ! The old-school look is intentional, as I tend to prefer an uncluttered appearance.
+By the way, if you're wondering about the style of the website : Yes ! The old-school look is intentional, as I prefer an uncluttered appearance.
 
-See you soon !
+See you soon!
 
 # Other
 If you like my content, you should also like these websites :
