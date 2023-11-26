@@ -33,6 +33,11 @@ title = "smedje"
 description = "IT enthusiast, loves to study subjects that don't have much to do with each other"
 logo = "images/profile.png"
 
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/suyaseongi"
+
 [markup]
   # Table of contents
   # Add toc = true to content front matter to enable
