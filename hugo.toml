@@ -22,7 +22,7 @@ weight = 30
 
 
 [params]
-noindex = false
+noindex = true
 
 [params.theme]
 #palette = "base16-dark"
