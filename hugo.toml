@@ -38,6 +38,11 @@ icon = "fa-brands fa-github"
 title = "GitHub"
 url = "https://github.com/suyaseongi"
 
+[[params.socialLinks]]
+icon = "fa-solid fa-skull"
+title = "Root Me"
+url = "https://www.root-me.org/smedje-sh"
+
 [markup]
   # Table of contents
   # Add toc = true to content front matter to enable
