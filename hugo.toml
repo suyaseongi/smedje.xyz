@@ -20,6 +20,10 @@ name = "Forge"
 url = "/forge"
 weight = 30
 
+[[menu.main]]
+name = "Website"
+url = "/website"
+weight = 40
 
 [params]
 noindex = true
