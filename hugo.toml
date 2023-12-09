@@ -40,6 +40,11 @@ description = "IT enthusiast, loves to study subjects that don't have much to do
 logo = "images/profile.png"
 
 [[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "email"
+url = "mailto:smedje@smedje.xyz"
+
+[[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
 url = "https://github.com/suyaseongi"
