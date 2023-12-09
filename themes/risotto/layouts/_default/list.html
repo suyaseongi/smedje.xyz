@@ -1,5 +1,7 @@
 {{ define "main" }}
-    <h1 id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h1>
+    <!--<h1 id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h1>-->
+
+    <img src="/banners/banner_{{ .Title | urlize }}.svg" alt="banner-{{ .Title | urlize }}">
 
     {{ .Content }}
 
