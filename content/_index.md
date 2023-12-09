@@ -3,6 +3,7 @@ title = 'Index'
 date = 2023-11-25T09:06:10+01:00
 draft = false
 +++
+![banner](images/banner.svg)
 # Hi
 Welcome to my first website project !\
 My name is Seiji (aka smedje), and I'm currently a highschooler in France. 
@@ -12,6 +13,7 @@ I'll be posting various info about my [hobbies](/hobbies), my "daily driving" [s
 By the way, if you're wondering about the style of the website : Yes ! The old-school look is intentional, as I prefer an uncluttered appearance.
 
 See you soon!
+
 
 # Other
 If you like my content, you should also like these websites :
