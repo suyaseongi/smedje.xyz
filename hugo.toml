@@ -2,6 +2,7 @@ baseURL = 'smedje.xyz'
 languageCode = 'en'
 title = 'smedje'
 theme = 'risotto'
+author = "smedje"
 
 # For hugo >= 0.60.0, enable inline HTML
 #[markup.goldmark.renderer]
