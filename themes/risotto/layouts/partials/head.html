@@ -10,10 +10,15 @@
 
 <!-- Open Graph Metadata <https://ogp.me/> -->
 <meta property="og:title" content="{{ .Site.Title }} &ndash; {{ with .Title }}{{ . }}{{ end }}" />
-<meta property="og:type" content="profile" />
-<meta property="og:image" content="{{ "/images/banner_index.svg" | absURL }}" />
+<meta property="og:type" content="website" />
+
+<meta property="og:image" content="{{ "/images/banner.jpg" | absURL }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
 <meta property="og:url" content="{{ .Permalink | absURL }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
+{{ with .Site.Params.about }}<meta property="og:description" content="{{ .description }}" />{{ end }}
 
 <!-- FontAwesome <https://fontawesome.com/> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" />
