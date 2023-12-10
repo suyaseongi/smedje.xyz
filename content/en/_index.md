@@ -19,6 +19,8 @@ See you soon!
 # Other
 If you like my content, you should also like these websites :
 - [Colin Lussagnet](https://colinlussagnet-volusfpv-982fae596bb15f39bb30b056608f55ad4c123b4.gitlab.io/), a friend of mine (🗿)
+- [Régis Philibert](https://www.regisphilibert.com/), cool Quebecois dev that uses Hugo professionally
+- [Faces of Open Source](https://www.facesofopensource.com/), people behind the biggest Open Source projects
 - [Choose A License](https://choosealicense.com/), website centralizing main licenses for various projects
 - [Luke Smith](https://lukesmith.xyz/), fairly well-known Linux content creator[^1]
 

@@ -19,6 +19,8 @@ D'ailleurs, si l'apparence du site vous paraît inhabituelle, ou 'vieillotte' : 
 # Autres
 Si vous appréciez mon contenu, il devrait en être de même pour ces sites :
 - [Colin Lussagnet](https://colinlussagnet-volusfpv-982fae596bb15f39bb30b056608f55ad4c123b4.gitlab.io/), un bon ami (🗿)
+- [Régis Philibert](https://www.regisphilibert.com/), développeur Québecois professionnel en Hugo
+- [Faces of Open Source](https://www.facesofopensource.com/), personnes les plus importantes du Logiciel Libre
 - [Choose A License](https://choosealicense.com/), site simplifiant le choix d'une license pour un projet
 - [Luke Smith](https://lukesmith.xyz/), créateur de contenu autour de Linux relativement connu[^1]
 
