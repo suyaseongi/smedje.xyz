@@ -3,7 +3,7 @@ title = 'Index'
 date = 2023-11-25T09:06:10+01:00
 draft = false
 +++
-![banner-index](/images/banner_index.svg)
+![index banner](/images/banner_index.svg)
 # Introduction
 Bienvenue sur mon premier site internet !
 
