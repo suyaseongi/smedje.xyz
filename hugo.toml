@@ -1,5 +1,5 @@
 baseURL = 'smedje.xyz'
-languageCode = 'en-us'
+languageCode = 'en'
 title = 'smedje'
 theme = 'risotto'
 
@@ -11,6 +11,20 @@ theme = 'risotto'
 #sectionPagesMenu = "main"
 
 copyright = "© MIT license"
+
+
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = '🇬🇧'
+    weight = 1
+  [languages.fr]
+  contentDir = 'content/fr'
+    languageName = '🇫🇷'
+    weight = 2
+
+
 
 [[menu.main]]
 name = "Hobbies"

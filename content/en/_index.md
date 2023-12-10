@@ -3,9 +3,10 @@ title = 'Index'
 date = 2023-11-25T09:06:10+01:00
 draft = false
 +++
-![banner-index](images/banner_index.svg)
+![banner-index](/images/banner_index.svg)
 # Hi
-Welcome to my first website project !\
+Welcome to my first website project !
+
 My name is Seiji (aka smedje), and I'm currently a highschooler in France. 
 
 I'll be posting various info about my [hobbies](/hobbies), my "daily driving" [system](/forge) and details about this [website](/website).
