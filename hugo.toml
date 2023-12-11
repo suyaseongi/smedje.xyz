@@ -18,11 +18,11 @@ copyright = "© MIT license"
 [languages]
   [languages.en]
     contentDir = 'content/en'
-    languageName = '🇬🇧'
+    languageName = '🇬🇧 English'
     weight = 1
   [languages.fr]
   contentDir = 'content/fr'
-    languageName = '🇫🇷'
+    languageName = '🇫🇷 Français'
     weight = 2
 
 
