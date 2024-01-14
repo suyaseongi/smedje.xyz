@@ -3,6 +3,7 @@ title = 'Hardware'
 date = 2023-11-26T22:37:55+01:00
 draft = false
 toc = true
+description = "Details about my audio equipment"
 +++
 ## Overview
 ### Headphones

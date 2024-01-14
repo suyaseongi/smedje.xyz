@@ -3,6 +3,7 @@ title = 'System'
 date = 2023-11-26T16:33:25+01:00
 draft = false
 toc = true
+description = "Details about my system"
 +++
 ## Overview
 Here is a quick list of the main elements in my workflow :

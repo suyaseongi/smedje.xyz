@@ -46,18 +46,19 @@ weight = 40
 noindex = true
 
 [params.theme]
-#palette = "base16-dark"
-palette = "dracula"
+#palette = "dracula"
+palette = "ease"
+
 
 [params.about]
 title = "smedje"
 description = "IT enthusiast, loves to study subjects that don't have much to do with each other"
-logo = "/images/profile.png"
+logo = "/images/profile.svg"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "email"
-url = "mailto:smedje@smedje.xyz"
+url = "mailto:contact@smedje.xyz"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"

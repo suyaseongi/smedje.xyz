@@ -2,6 +2,7 @@
 title = 'Hardware'
 date = 2023-11-26T16:46:27+01:00
 draft = false
+description = "Details about my hardware"
 +++
 ## Overview
 ### Specs

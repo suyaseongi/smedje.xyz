@@ -3,10 +3,10 @@
 :root {
   --base00: #282936; /* page background */
   --base01: #3a3c4e; /* content background */
-  --base02: #4d4f68;
-  --base03: #626483;
-  --base04: #62d6e8;
-  --base05: #e9e9f4;
+  --base02: #4d4f68; /* code background */
+  --base03: #626483; /* 'muted' : lists and # headers */
+  --base04: #62d6e8; /* highlighted text color */
+  --base05: #e9e9f4; /* text color */
   --base06: #f1f2f8;
   --base07: #f7f7fb;
   --base08: #ea51b2;
@@ -14,11 +14,11 @@
   /*--base0A: #00f769;*/
   --base0A: #42C4B5; /* selected text*/
   /* --base0B: #ebff87; */
-  --base0B: #42C4B5; /* primary accent */
+  --base0B: #42C4B5; /* site logo background color */
   /*--base0C: #a1efe4;*/
-  --base0C: #acd8e8; /* active links */
+  --base0C: #acd8e8; /* active/hover links text color */
   /*--base0D: #62d6e8;*/
-  --base0D: #74b5d6; /* links */
+  --base0D: #74b5d6; /* links text color*/
   --base0E: #b45bcf;
   --base0F: #00f769;
 }

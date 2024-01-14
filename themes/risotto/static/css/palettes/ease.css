@@ -1,0 +1,12 @@
+:root {
+    --base00: #f3eeea; /* page background */
+    --base01: #ebe3d5; /* content background */
+    --base02: #fcf9ee; /* code background */
+    --base03: #626483; /* 'muted' : lists and # headers */
+    --base04: #776b5d; /* highlighted text color */
+    --base05: #080a0c; /* text color */
+    --base0A: #b0a695; /* selected text*/
+    --base0B: #b0a695; /* site logo background color */
+    --base0C: #a05c5f; /* active/hover links text color */
+    --base0D: #5a0f13; /* links text color*/
+  }
