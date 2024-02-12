@@ -13,13 +13,27 @@
 {{ end }}
 
 {{define "aside" }}
-    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+    {{ if .Params.description }}
+        Page Description :
+        <p><i>{{ .Params.description }}</i></p>
+    {{ end }}
     {{ if or (.Params.author) (.Params.date) }}
         <p>
             {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
-            {{ if .Date }}Creation Date: {{ .Date.Format "2006-01-02" }}{{ end }}
+            {{ if .Date }}Page Creation Date: {{ .Date.Format "2006-01-02" }}{{ end }}
         </p>
-    {{ end }}
+{{ end }}
+
+<!--
+{{ $.Scratch.Set "readingTimePhraseSingle" "Reading time estimated to %d minute" }}
+{{ $.Scratch.Set "readingTimePhraseMultiple" "Reading time estimated to %d minutes" }}
+
+{{ if eq .ReadingTime 1 }}
+    <p>{{ printf ($.Scratch.Get "readingTimePhraseSingle") .ReadingTime }}</p>
+{{ else }}
+    <p>{{ printf ($.Scratch.Get "readingTimePhraseMultiple") .ReadingTime }}</p>
+{{ end }}
+-->
 
     {{ if and (.Params.toc) (.TableOfContents) }}
 	    <hr>

@@ -11,8 +11,6 @@ author = "smedje"
 # Automatically add content sections to main menu
 #sectionPagesMenu = "main"
 
-copyright = "© MIT license"
-
 
 
 [languages]

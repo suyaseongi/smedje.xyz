@@ -22,3 +22,5 @@ It has been since January 2023 that I almost exclusively use Linux on my compute
 
 Before having Linux as a daily-driver on my system, I, like most, used Windows, and I can't say that I've had a bad experience with it.
 I think that I could call myself a power user at the time, as I almost knew every trick that existed to get something to work better, or the means to fix some obscure problem. Anyway, I knew my way around.
+
+Around the end of 2022, I started to have greater interest in cybersecurity, and on a more personal level, privacy became a subject of concern. I can't say that I was very pleased with having big organisations control personal and sensitive data, but I think that I felt a need to distance myself from invasive tools to feel comfortable using my devices.
