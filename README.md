@@ -1,4 +1,4 @@
-# [smedje.xyz](https://smedje.xyz)
+# smedje.xyz
 ![index banner](/static/images/banner_index.svg)
 
 This is the GitHub repo for my website, hosted on GitHub Pages.
