@@ -4,7 +4,6 @@ date = 2023-11-26T10:23:26+01:00
 draft = false
 description = "Homepage for hobbies"
 +++
-
 ## Why ?
 As time passed, I came to realize that curiosity was one of my main personality traits.
 

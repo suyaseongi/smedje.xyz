@@ -9,7 +9,7 @@ description = "Homepage for content about languages"
 Here is my current level in the languages that I speak/learn based on different factors.
 
 >**Note** :
-*The score is calibrated to have a **maximum of 10** and **minimum of 1**, so 10 doesn't means perfect but rather the best and vice versa for 1.*
+*The score is calibrated to have a **maximum of 10** and **minimum of 1**, so 10 doesn't mean perfect but rather the best and vice versa for 1.*
 
 - **Overall Level :**
 | Language | | Score (1-10) |
