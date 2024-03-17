@@ -24,16 +24,7 @@
         </p>
 {{ end }}
 
-<!--
-{{ $.Scratch.Set "readingTimePhraseSingle" "Reading time estimated to %d minute" }}
-{{ $.Scratch.Set "readingTimePhraseMultiple" "Reading time estimated to %d minutes" }}
 
-{{ if eq .ReadingTime 1 }}
-    <p>{{ printf ($.Scratch.Get "readingTimePhraseSingle") .ReadingTime }}</p>
-{{ else }}
-    <p>{{ printf ($.Scratch.Get "readingTimePhraseMultiple") .ReadingTime }}</p>
-{{ end }}
--->
 
     {{ if and (.Params.toc) (.TableOfContents) }}
 	    <hr>

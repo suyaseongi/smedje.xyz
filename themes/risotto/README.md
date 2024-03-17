@@ -10,19 +10,25 @@ risotto is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by 
 
 ![Screenshot of the risotto theme](https://raw.githubusercontent.com/joeroe/risotto/master/images/screenshot.png)
 
+## Features
+
+* Plain, semantic HTML with no Javascript
+* Plain CSS – no frameworks, no preprocessors, just simple and easy-to-customise stylesheets
+* Uses [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) for native responsive behaviour without arbitrary breakpoints
+* Comes with [16 built-in colour schemes](#colour-schemes) based on popular terminal themes plus the ability to use custom themes using the [base16 system](https://github.com/monicfenga/base16-styles)
+
 ## Install
 
-The easiest way to install the theme is to clone this repository into your site's `themes` directory:
+The easiest way to install the theme is to [download the latest release](https://github.com/joeroe/risotto/releases/tag/release) and extract it to your project's `themes/` directory.
+You can also clone this repository into your site's `themes` directory and checkout the latest release:
 
 ```shell
-git clone https://github.com/joeroe/risotto themes/risotto
+git clone https://github.com/joeroe/risotto themes/risotto && cd themes/risotto
+rit checkout $(git tag -l | grep '^v[0-9.]*$' | sort -V | tail -n 1)
 ```
 
-If your site is already a git repository, you can add the theme as a submodule instead:
-
-```shell
-git submodule add https://github.com/joeroe/risotto.git themes/risotto
-```
+Note that this will not work if your site is itself a git repository.
+In that case, you can add the theme as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), but this is not recommended due to the difficulty of tracking a specific release.
 
 ## Update
 
@@ -33,19 +39,15 @@ cd themes/risotto
 git pull
 ```
 
-Or, if you added it as a git submodule:
-
-```shell
-git submodule update --remote
-```
+Otherwise, simply [download the latest release](https://github.com/joeroe/risotto/releases/tag/release) and extract it to your project's `themes/` directory, replacing the old version.
 
 ## Configure
 
-To use the theme, add `theme = 'risotto'` to your site's `config.toml`, or `theme: risotto` to your `config.yaml` respectively.
+To use the theme, add `theme = 'risotto'` to your site's `config.toml`, or `theme: risotto` to your `config.yaml`.
 
 See `exampleSite/config.toml` for the theme-specific parameters you need to add to your site's `config.toml` or `config.yaml` to configure the theme.
 
-### Colour palettes
+### Colour schemes
 
 risotto uses the [base16 framework](https://github.com/chriskempson/base16) to define colour schemes that can be used with the `theme.palette` parameter.
 A selection of 16 palettes (10 dark, 6 light) are bundled with the theme: `apprentice`, `base16-dark`, `base16-light`, `dracula`, `gruvbox-dark`, `gruvbox-light`, `material`, `papercolor-dark`, `papercolor-light`, `solarized-dark`, `solarized-light`, `tender`, `tokyo-night-dark`, `tokyo-night-light`, `windows-95` and `windows-95-light`.
@@ -57,27 +59,35 @@ The easiest way to use other base16 styles is to place .css file from https://gi
 
 Or to define a wholly custom theme, you will need to define the following CSS variables for the following base16 colours (see [base16-dark.css](blob/main/static/css/palettes/base16-dark.css) for an example):
 
-| Base | Default colour | Used for | Examples |
-| ---- | -------------- | -------- | -------- |
-| 00   | Dark           | Background | Page background          |
-| 01   | │              | Alt. background | Content background          |
-| 02   | │              | In-text backgrounds | `<pre>`, `<code>`, `<kbd>`, `<samp>` |
-| 03   | │              | Muted text | `:before` & `:marker` symbols |
-| 04   | │              | Alt. foreground | Aside text          |
-| 05   | │              | Foreground         | Content text         |
-| 06   | │              |          |          |
-| 07   | Light          |          |          |
-| 08   | Red            |          |          |
-| 09   | Orange         |          |          |
-| 0A   | Yellow         | Highlights | Selected text, `<mark>` |
-| 0B   | Green          | Primary accent | Logo          |
-| 0C   | Cyan           | Active links | `a:active`, `a:hover`         |
-| 0D   | Blue           | Links    | `a:link`, `a:visited`         |
-| 0E   | Magenta        |          |          |
-| 0F   | Brown          |          |          |
+| Base | Default colour                             | Used for            | Examples                             |
+| ---- | ------------------------------------------ | ------------------- | ------------------------------------ |
+| 00   | <span class="base00">Dark</span>           | Background          | Page background                      |
+| 01   | <span class="base01">│</span>              | Alt. background     | Content background                   |
+| 02   | <span class="base02">│</span>              | In-text backgrounds | `<pre>`, `<code>`, `<kbd>`, `<samp>` |
+| 03   | <span class="base03">│</span>              | Muted text          | `:before` & `:marker` symbols        |
+| 04   | <span class="base04">│</span>              | Alt. foreground     | Aside text                           |
+| 05   | <span class="base05">│</span>              | Foreground          | Content text                         |
+| 06   | <span class="base06">│</span>              |                     |                                      |
+| 07   | <span class="base07">Light</span>          |                     |                                      |
+| 08   | <span class="base08">Red</span>            |                     |                                      |
+| 09   | <span class="base09">Orange</span>         |                     |                                      |
+| 0A   | <span class="base0A">Yellow</span>         | Highlights          | Selected text, `<mark>`              |
+| 0B   | <span class="base0B">Green</span>          | Primary accent      | Logo                                 |
+| 0C   | <span class="base0C">Cyan</span>           | Active links        | `a:active`, `a:hover`                |
+| 0D   | <span class="base0D">Blue</span>           | Links               | `a:link`, `a:visited`                |
+| 0E   | <span class="base0E">Magenta</span>        |                     |                                      |
+| 0F   | <span class="base0F">Brown</span>          |                     |                                      |
 
 For light mode palettes, the sequence of 00–07 should be reversed (light to dark, not dark to light).
 Note that not all colours are currently used in the theme.
+
+You you use these colours directly in content using the convenience classes `.baseXX` and `.bg-baseXX`.
+For example:
+
+```html
+<span class="base0A">Yellow text</span>
+<mark class="base0D">Text highlighted in green</mark>
+```
 
 ## Favicon
 
