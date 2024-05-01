@@ -51,7 +51,7 @@ palette = "ease"
 [params.about]
 title = "smedje"
 description = "IT enthusiast, loves to study subjects that don't have much to do with each other"
-logo = "/images/profile.svg"
+logo_image = "/images/profile.svg"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
