@@ -5,14 +5,19 @@
 
     {{ .Content }}
 
+<!--
     <ul>
     {{ range .Pages }}
         {{ .Render "li" }}
     {{ end }}
     </ul>
+-->
 
 {{ end }}
 
 {{define "aside" }}
-    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+    {{ if .Params.description }}
+        Page Description :
+        <p><i>{{ .Params.description }}</i></p>
+    {{ end }}
 {{ end }}

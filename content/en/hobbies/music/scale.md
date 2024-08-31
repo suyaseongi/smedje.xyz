@@ -1,11 +1,11 @@
 +++
 title = 'Scale'
 date = 2024-04-19T19:26:05+02:00
-draft = true
+draft = false
 +++
-On this page, I'm establishing a scale to determine the factors that makes me like a certain work of musical art, mostly albums, so to attempt to theorize something that's very abstract to me.
+On this page, I'm establishing a scale to determine the factors that makes me like a certain work of musical art, mostly albums, in an attempt to theorize something that's very abstract to me.
 
-Let's first create a tree structure defining the different factors that matter to me.
+Let's first create a tree structure defining the different factors that matter to me, with the intention to develop them later.
 
 - Technical
     - Composition

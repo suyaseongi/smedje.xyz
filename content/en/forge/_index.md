@@ -8,3 +8,5 @@ description = "Every part of my daily workflow"
 What I call my "forge" is in fact the system that I use everyday, or put another way, my computer.
 
 The reason for calling it "forge" comes from my username/pseudonym, `smedje`, based on the danish word `smed` that stands for blacksmith, so normally, my username should have been `smed` but I found `smedje` nicer so here we are.
+
+To get more details about my system, read [this](system.md) page.
