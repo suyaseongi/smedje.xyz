@@ -56,7 +56,7 @@ logo_image = "/images/profile.svg"
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "email"
-url = "mailto:contact@[insert-domain-name]"
+url = "mailto:contact@smedje.xyz"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
